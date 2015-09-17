@@ -174,6 +174,9 @@
 (setq geiser-debug-jump-to-debug-p nil)
 (setq geiser-debug-show-debug-p nil)
 
+;;(require 'autopair)
+;;(autopair-global-mode) ;; enable autopair in all buffers
+
 ;; turn on automatic bracket insertion by pairs. New in emacs 24
 (electric-pair-mode 1)
 
