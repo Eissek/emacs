@@ -148,7 +148,7 @@
 ;; (load-theme 'cyberpunk t)
 ;; (add-hook 'after-init-hook 
       ;; (lambda () (load-theme 'cyberpunk t)))
-(global-unset-key (kbd "C-z"))
+
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
@@ -180,6 +180,7 @@
 ;; turn on automatic bracket insertion by pairs. New in emacs 24
 (electric-pair-mode 1)
 
+(global-unset-key (kbd "C-z"))
 
 ;; Change some settings
 (workgroups-mode 1)  ; put this one at the bottom of .emacs
