@@ -182,5 +182,16 @@
 
 (global-unset-key (kbd "C-z"))
 
+(defun cider-figwheel-repl ()
+  (interactive)
+  (save-some-buffers)
+  (with-current-buffer (cider-current-repl-buffer)
+    (goto-char (point-max))
+    (insert "(require 'figwheel-sidecar.repl-api)
+             (figwheel-sidecar.repl-api/cljs-repl)")
+    (cider-repl-return)))
+
+(global-set-key (kbd "C-c C-f") 'cider-figwheel-repl)
+
 ;; Change some settings
 (workgroups-mode 1)  ; put this one at the bottom of .emacs
