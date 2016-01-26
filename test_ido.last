@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/eissek87/Projects/clojurescript/test-app/src/" . "test_app/")
+ ("/home/eissek87/Projects/clojurescript/test-app/" . "src/")
+ ("/home/eissek87/Projects/clojurescript/" . "simple-screen-recorder/")
+ ("/home/eissek87/Projects/" . "clojurescript/")
+ ("/home/eissek87/" . ".lein/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/eissek87/Projects/clojurescript/simple-screen-recorder/"
+ "/home/eissek87/.lein/"
+ "/home/eissek87/Projects/clojurescript/test-app/"
+ "/home/eissek87/Projects/clojurescript/test-app/src/test_app/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+ "profiles.clj"
+ "core.cljs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/eissek87/Projects/clojurescript/simple-screen-recorder/" (22056 58052 677307 400000) "target/" "src/" "resources/" "README.md" "project.clj" "figwheel_server.log" ".gitignore" "../" "./")
+
+ ("/home/eissek87/Projects/clojurescript/" (22056 48432 533263 300000) "test-app/" "simple-screen-recorder/" "om-tut/" "../" "./")
+
+ ("/home/eissek87/" (22056 48340 468379 737000) "Documents/" "* Chicken REPL *" ".android/" ".gmrunrc" ".pbuilderrc" ".icons/" ".themes/" "Music/" ".m2/" "Templates/" ".npm/" ".Xauthority" "qcommands.db" ".profile" ".bash_logout" "Downloads/" ".xsessionrc" ".vboxclient-draganddrop.pid" ".emacs_workgroups" ".gtk-bookmarks~2015-09-14T19:33:29~" ".thumbnails/" ".lein/" ".dbus/" ".fonts/" ".gtkrc-2.0" "Pictures/" ".git-credential-cache/" ".macromedia/" ".gstreamer-0.10/" "../" ".cache/" "tmp/" ".mozilla/" ".vboxclient-seamless.pid" ".dmrc" ".vboxclient-display.pid" "Projects/" ".xsession-errors.old" ".gconf/" ".gitconfig" ".xsession-errors" ".sqlite_history" ".Xresources" ".gnupg/" ".conkyrc" "bin/" ".geiser_history.chicken" ".config/" ".adobe/" "Videos/" ".bash_aliases" ".gnome/" ".profile~2015-09-14T19:33:29~" ".node_repl_history" ".pki/" ".nano_history" ".emacs.d/" "Public/" ".nvm/" ".bash_history" ".local/" ".gtk-bookmarks" "./" ".bashrc" ".vboxclient-clipboard.pid" ".gtkrc-2.0.mine")
+
+ ("/home/eissek87/.lein/" (22056 48296 782797 827000) "profiles.clj" "self-installs/" "../" "./")
+
+ ("/media/" (22007 9453 228000 0) "cdrom0/" "cdrom/" "../" "sf_Projects/" "./")
+
+ ("/media/sf_Projects/" (22035 45252 870627 300000) "yasnippet-snippets-master.zip" "yasnippet-snippets-master/" "wine-cellar/" "treestyletab/" "TodoMVC/" "the-snowman/" "test-projects/" "test-maven/" "synthetica_2.19.1_eval/" "sticky.txt" "spark.jar" "SoftwareDisplay_HOME_27_OCT.war" "SoftwareDisplay_HOME_26_OCT.war" "SoftwareDisplay_HOME_25_OCT.war" "SoftwareDisplay_HOME_23_OCT.war" "SoftwareDisplay_HOME_22_OCT.war" "SoftwareDisplay_HOME_20_OCT.war" "SoftwareDisplay6TH_NOV.war" "Ribena/" "require-tutorial/" "reinstall emac-packages.txt" "reinstall emac-packages.lisp" "red-banana/" "Rebel INS/" "raspberry-coke/" "RainbowDrops.epf" "Project.7z" "oyster/" "ontd-preview.js" "nwjs/" "new  2.java" "MSc/" "mithril.min.zip" "mimic.js" "mimic-test.js" "Maliah Michel Working It Out.mp4" "lj-xml-rpc/" "livejournal.js" "lib/" "JTattoo/" "jcef_binary_3.1750.1738.91_windows64/" "Java/" "index.html" "green-tango/" "gradle-2.4/" "fanta-orange/" "data/" "clojurescript/" "clojure/" "Chicken/" "C/" "blueberry-coke/" "blue-apple/" "bin/" "bg/" "atom.xml" ".settings/" ".project" ".emacs_backup" ".emacsss" ".emacs-new2.lisp" ".emacs-new.lisp" ".classpath" "../" "./")
+
+ ("/media/sf_Projects/clojurescript/" (22056 3549 509911 400000) "test-app/" "simple-screen-recorder/" "om-tut/" "../" "./")
+
+ ("/media/sf_Projects/clojurescript/test-app/" (22055 30379 21089 800000) "test/" "target/" "src/" "scripts/" "resources/" "README.md" "project.clj" "out/" "node_modules/" "index_release.html" "index.html" "dev-resources/" ".nrepl-port" ".gitignore" "../" "./")
+
+ ("/home/eissek87/Projects/clojurescript/test-app/src/test_app/" (22054 3874 606565 800000) "core.cljs" "../" "./")
+
+ ("/home/eissek87/Projects/clojurescript/test-app/src/" (22054 3874 605565 700000) "test_app/" "../" "./")
+
+ ("/home/eissek87/Projects/clojurescript/test-app/" (22054 3874 645070 700000) "src/" "scripts/" "README.md" "project.clj" "index_release.html" "index.html" ".gitignore" "../" "./")
+
+ ("/home/eissek87/Projects/" (22035 45252 870627 300000) "yasnippet-snippets-master.zip" "yasnippet-snippets-master/" "wine-cellar/" "treestyletab/" "TodoMVC/" "the-snowman/" "test-projects/" "test-maven/" "synthetica_2.19.1_eval/" "sticky.txt" "spark.jar" "SoftwareDisplay_HOME_27_OCT.war" "SoftwareDisplay_HOME_26_OCT.war" "SoftwareDisplay_HOME_25_OCT.war" "SoftwareDisplay_HOME_23_OCT.war" "SoftwareDisplay_HOME_22_OCT.war" "SoftwareDisplay_HOME_20_OCT.war" "SoftwareDisplay6TH_NOV.war" "Ribena/" "require-tutorial/" "reinstall emac-packages.txt" "reinstall emac-packages.lisp" "red-banana/" "Rebel INS/" "raspberry-coke/" "RainbowDrops.epf" "Project.7z" "oyster/" "ontd-preview.js" "nwjs/" "new  2.java" "MSc/" "mithril.min.zip" "mimic.js" "mimic-test.js" "Maliah Michel Working It Out.mp4" "lj-xml-rpc/" "livejournal.js" "lib/" "JTattoo/" "jcef_binary_3.1750.1738.91_windows64/" "Java/" "index.html" "green-tango/" "gradle-2.4/" "fanta-orange/" "data/" "clojurescript/" "clojure/" "Chicken/" "C/" "blueberry-coke/" "blue-apple/" "bin/" "bg/" "atom.xml" ".settings/" ".project" ".emacs_backup" ".emacsss" ".emacs-new2.lisp" ".emacs-new.lisp" ".classpath" "../" "./")
+
+ ("/home/eissek87/.emacs.d/" (22039 59147 652389 0) "elpa/" "projectile-bookmarks.eld" "init.el" ".gitignore" "themes/" "customizations/" "auto-save-list/" "backups/" "../" "README.md" ".git/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

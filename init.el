@@ -11,9 +11,13 @@
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
+;; (add-to-list 'package-archives
+             ;; '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-
+             '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
 ;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
@@ -54,7 +58,7 @@
 
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
-    cider
+    ;cider
 
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
@@ -116,6 +120,9 @@
 ;; Customization
 ;;;;
 
+
+
+
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
 (add-to-list 'load-path "~/.emacs.d/customizations")
@@ -150,7 +157,17 @@
       ;; (lambda () (load-theme 'cyberpunk t)))
 
 
+
 (define-key global-map (kbd "RET") 'newline-and-indent)
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;;Major Mode for js2-mode of JavaScript
+;; (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+;; Minor mode
+(add-hook 'js-mode-hook 'js2-minor-mode)
+
+
 
  ;; Set your lisp system and, optionally, some contribs
 (require 'slime)
