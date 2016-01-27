@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jan 27 16:19:42 2016
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22184 60958 796482 556000) (desktop . "206") "eissek87@debian" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#d3d3d3") (background-color . "#000000") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 11) (right-fringe . 11) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#dcdccc") (sticky) (environment) (frameset--id . "283D-728B-9149-8C04") (frameset--mini t . t) (height . 37) (width . 114) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top + -29) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 92) (min-pixel-width . 110) (min-pixel-height-ignore . 46) (min-pixel-width-ignore . 44) (min-pixel-height-safe . 23) (min-pixel-width-safe . 22)) leaf (pixel-width . 1276) (pixel-height . 828) (total-width . 116) (total-height . 36) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 11 11 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 6585) (start . 6144))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("wg" "work" "workgr"))
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/ido.last" "~/JavaScript/SimpleScreenRecorder/index.android.js" "~/.emacs.d/init.el" "~/.emacs.d/elpa/workgroups2-20141102.1122/workgroups2.el" "~/.emacs_workgroups" "~/.emacs.d/elpa/flycheck-0.25.1/flycheck.el" "~/JavaScript/SimpleScreenRecorder/index.ios.js" "~/.emacs.d/elpa/flycheck-0.25.1/flycheck-autoloads.el" "~/.emacs.d/elpa/let-alist-1.0.4/let-alist-autoloads.el" "~/.emacs.d/elpa/js2-mode-20150909/js2-mode-autoloads.el" "~/Clojurescript/simple-screen-recorder/node_modules/react-native/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js" "~/Clojurescript/simple-screen-recorder/src/simple_screen_recorder/android/core.cljs" "~/Clojurescript/simple-screen-recorder/target/android/reagent/core.cljs" "~/Clojurescript/my-recorder/project.clj" "~/Clojurescript/simple-screen-recorder/project.clj" "~/Clojurescript/simple-screen-recorder/node_modules/react-native/Libraries/Utilities/Alert.js" "~/Clojurescript/simple-screen-recorder/figwheel-bridge.js" "~/Clojurescript/simple-screen-recorder/index.android.js" "~/Clojurescript/CurrentApp/index.android.js" "~/Clojurescript/android-recorder/src/android_recorder/android/core.cljs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/eissek87/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(projectile-mode linum-mode flycheck-mode eldoc-mode paredit-mode)
+  6585
+  '(6551 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/eissek87/JavaScript/SimpleScreenRecorder/index.android.js"
+  "index.android.js"
+  'js-mode
+  '(projectile-mode linum-mode flycheck-mode js2-minor-mode subword-mode)
+  724
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

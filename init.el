@@ -39,7 +39,7 @@
   (package-refresh-contents))
 
 
-(require 'workgroups2)
+(require 'workgroups2) ;; Was causing problems with KeyBinding
 
 ;; The packages you want installed. You can also install these
 ;; manually with M-x package-install
@@ -167,6 +167,14 @@
 ;; Minor mode
 (add-hook 'js-mode-hook 'js2-minor-mode)
 
+;; (setq-default indent-tabs-mode nil)
+
+;; Change the default tabs in JavaScript and Js2-Mode
+(eval-after-load 'js
+ '(define-key js-mode-map (kbd "TAB") 'tab-to-tab-stop))
+
+(eval-after-load 'js2-mode
+  '(define-key js2-mode-map (kbd "TAB") 'tab-to-tab-stop))
 
 
  ;; Set your lisp system and, optionally, some contribs
@@ -210,5 +218,8 @@
 
 (global-set-key (kbd "C-c C-f") 'cider-figwheel-repl)
 
+;; (desktop-save-mode 1) ;; Save Buffers
+
+(setq wg-prefix-key (kbd "C-c z"))
 ;; Change some settings
 (workgroups-mode 1)  ; put this one at the bottom of .emacs
